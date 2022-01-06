@@ -2,7 +2,7 @@ import React from 'react';
 
 const ComParametro = (props) => {
     const nota = Math.ceil(props.nota);
-    const resultado = nota >= 7 ? "Aprovado" : "Reprovado"
+    const resultado = nota >= 7.00001 ? "Aprovado" : "Reprovado"
     return (
         <div>
             <h2>{props.titulo}</h2>

@@ -1,6 +1,7 @@
 import ReactDom from "react-dom";
 import React from "react";
 
+import Fragmento from "./components/basicos/Fragmentos";
 import ComParametro from "./components/basicos/ComParametro";
 import Primeiro from "./components/basicos/Primeiro";
 import './index.css';
@@ -16,6 +17,7 @@ ReactDom.render(
             nota={6.0}>
         </ComParametro>  
         <Primeiro></Primeiro>
+        <Fragmento></Fragmento>
             
       
         
