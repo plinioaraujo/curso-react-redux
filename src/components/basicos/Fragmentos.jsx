@@ -4,7 +4,7 @@ const Fragmento = () => {
     return ( 
         <>
 
-        <h3>Lorem ipsum dolor sit amet</h3>
+        <h3>Fragmento</h3>
 
         </>
 
