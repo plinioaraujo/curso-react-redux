@@ -9,6 +9,8 @@ import Card from "./components/layout/Card";
 import "./App.css";
 import Familia from "./components/basicos/Familia";
 import FamiliaMembro from "./components/basicos/FamiliaMembro";
+import ListaAlunos from "./components/repeticao/ListaAlunos";
+
 
 const App = () => {
   return (
@@ -17,6 +19,9 @@ const App = () => {
         <h1>Fundamentos React</h1>
 
         <div className="Cards">
+          <Card titulo="#06 - Repetição" color="#ccdd43">
+            <ListaAlunos/>
+          </Card>
           <Card titulo="#05 - Componente Com Filho #01" color="#CD8A9C">
             <Familia sobrenome="Silva">
               <FamiliaMembro nome="João"  />
