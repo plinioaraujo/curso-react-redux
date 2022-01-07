@@ -19,9 +19,7 @@ const App = () => {
         </ComParametro>  
         <Primeiro></Primeiro>
     </div>
-    
-
-     );
+    );
 }
  
 export default App;
