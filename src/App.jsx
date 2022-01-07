@@ -8,6 +8,7 @@ import Card from "./components/layout/Card";
 
 import "./App.css";
 import Familia from "./components/basicos/Familia";
+import FamiliaMembro from "./components/basicos/FamiliaMembro";
 
 const App = () => {
   return (
@@ -16,11 +17,15 @@ const App = () => {
         <h1>Fundamentos React</h1>
 
         <div className="Cards">
-          <Card titulo="#05 - Componente Com Filho" color="#CD8A9C" >
-            <Familia sobrenome="Silva"/>
-            
+          <Card titulo="#05 - Componente Com Filho #01" color="#CD8A9C">
+            <Familia sobrenome="Silva">
+              <FamiliaMembro nome="João"  />
+              <FamiliaMembro nome="José"  />
+              <FamiliaMembro nome="Maria"  />
+              <FamiliaMembro nome="Isabel" />
+            </Familia>
           </Card>
-          <Card titulo="#04 - Desafio Aleatório" color="#FF7F50" >
+          <Card titulo="#04 - Desafio Aleatório" color="#FF7F50">
             <Aleatorio minimo={1} maximo={10}></Aleatorio>
           </Card>
           <Card titulo="#03 - Fragmento" color="#6495ED">
