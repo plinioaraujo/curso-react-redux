@@ -6,27 +6,32 @@ import Primeiro from "./components/basicos/Primeiro";
 import Aleatorio from "./components/basicos/Aleatorio";
 import Card from "./components/layout/Card";
 
+import "./App.css";
+
 const App = () => {
   return (
     <>
-      <div>
+      <div className="App">
         <h1>Fundamentos React</h1>
-        <Card titulo="#04 - Desafio Aleatório">
-          <Aleatorio minimo={1} maximo={10}></Aleatorio>
-        </Card>
-        <Card titulo="#03 - Fragmento">
-          <Fragmento></Fragmento>
-        </Card>
-        <Card titulo="#02 - Com Parametro">
-          <ComParametro
-            titulo="Situação do aluno"
-            aluno="Joao Jose"
-            nota={9.0}
-          ></ComParametro>
-        </Card>
-        <Card titulo="#01 -  Primeiro Componente">
-          <Primeiro></Primeiro>
-        </Card>
+
+        <div className="Cards">
+          <Card titulo="#04 - Desafio Aleatório" color="#FF7F50" >
+            <Aleatorio minimo={1} maximo={10}></Aleatorio>
+          </Card>
+          <Card titulo="#03 - Fragmento" color="#6495ED">
+            <Fragmento></Fragmento>
+          </Card>
+          <Card titulo="#02 - Com Parametro" color="#40E0D0">
+            <ComParametro
+              titulo="Situação do aluno"
+              aluno="Joao Jose"
+              nota={9.0}
+            ></ComParametro>
+          </Card>
+          <Card titulo="#01 -  Primeiro Componente" color="#DFFF00">
+            <Primeiro></Primeiro>
+          </Card>
+        </div>
       </div>
     </>
   );

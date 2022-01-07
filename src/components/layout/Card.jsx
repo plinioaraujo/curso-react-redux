@@ -3,13 +3,17 @@ import React from "react";
 import "./Card.css";
 
 const Card = (props) => {
+    console.log(props)
+  const cardStyle = {
+    backgroundColor: props.color || "#b20d30",
+    borderColor: props.color || "#b20d30",
+  };
+
   return (
     <>
-      <div className="Card">
+      <div className="Card" style={cardStyle}>
         <div className="Title">{props.titulo}</div>
-        <div className="Content">
-            {props.children}
-        </div>
+        <div className="Content">{props.children}</div>
       </div>
     </>
   );
