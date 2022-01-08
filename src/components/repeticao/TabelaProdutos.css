@@ -1,0 +1,19 @@
+.tabelaProdutos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabelaProdutos table{
+    width: 100%;
+}
+.tabelaProdutos th{
+    background-color: rgb(17, 20, 20);
+    color:white
+}
+.tabelaProdutos .Par{
+    background-color: rgb(158, 158, 158);
+}
+.tabelaProdutos .Impar{
+    background-color: rgb(224, 224, 224);
+}
