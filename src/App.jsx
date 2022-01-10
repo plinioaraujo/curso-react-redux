@@ -12,6 +12,7 @@ import FamiliaMembro from "./components/basicos/FamiliaMembro";
 import ListaAlunos from "./components/repeticao/ListaAlunos";
 import TabelaProdutos from "./components/repeticao/TabelaProdutos";
 import ParOuImpar from "./components/condicional/ParOuImpar";
+import UsuarioInfo from "./components/condicional/Usuario";
 
 const App = () => {
   return (
@@ -20,9 +21,12 @@ const App = () => {
         <h1>Fundamentos React</h1>
 
         <div className="Cards">
-          <Card titulo="#08 - Renderização Condicional" color="#982395">
+          <Card titulo="#08 - Renderização Condicional #01" color="#982395">
            <ParOuImpar numero={20}/>
+            <UsuarioInfo user={{ nome:'João da Silva' }}/>
+            <UsuarioInfo user={{ email:'joao@email.com' }}/>
           </Card>
+
           <Card titulo="#07 - Repetição - Produtos" color="#ffcbaa">
            <TabelaProdutos />
           </Card>

@@ -5,6 +5,7 @@ const ParOuImpar  = (props) => {
     return ( 
         <>
             { isPar ?  <span>Par</span> : <span>Impar</span>}
+           
         </>
      );
 }
