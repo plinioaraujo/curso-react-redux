@@ -1,4 +1,4 @@
 #Fundamentos React
-##Criando o projeto React JS 
+##Projeto React JS - Curso Cod3r
 
 # curso-react-redux
