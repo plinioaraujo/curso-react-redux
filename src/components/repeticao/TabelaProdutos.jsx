@@ -4,7 +4,7 @@ import produtos from "../../data/produtos";
 import './TabelaProdutos.css';
 
 const TabelaProdutos = () => {
-  const tabProdutos = produtos.map((prod, i) => {
+  const tabProdutos = produtos.map((prod, i, index) => {
     return (
       <>
         <tr key={prod.id} className={i % 2 == 0 ? 'Par' : 'Impar' }>
