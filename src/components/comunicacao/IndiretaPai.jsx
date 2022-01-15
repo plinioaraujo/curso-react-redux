@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import IndiretaFilho from './IndiretaFilho';
 
 const IndiretaPai = (props) => {
-    const [a, b] = [1,2]
+    //COMPONENTE COM ESTADO
     let [nome, setNome] = useState('?')
     let [idade, setIdade] = useState(0)
     let [nerd, setNerd] = useState(false)
