@@ -15,6 +15,7 @@ import ParOuImpar from "./components/condicional/ParOuImpar";
 import UsuarioInfo from "./components/condicional/Usuario";
 import DiretaPai from "./components/comunicacao/DiretaPai";
 import IndiretaPai from "./components/comunicacao/IndiretaPai";
+import Input from "./components/formulario/Input";
 
 const App = () => {
   return (
@@ -23,20 +24,20 @@ const App = () => {
         <h1>Fundamentos React</h1>
 
         <div className="Cards">
+          <Card titulo="#1 - Componente Controlado (Input)" color="#e45f56">
+            <Input/>
+          </Card>
           <Card titulo="#10 - Comunicação Indireta" color="#aabb59">
             <IndiretaPai />
           </Card>
-
           <Card titulo="#09 - Comunicação Direta" color="#ac7b59">
             <DiretaPai />
           </Card>
-
           <Card titulo="#08 - Renderização Condicional #01" color="#982395">
             <ParOuImpar numero={20} />
             <UsuarioInfo user={{ nome: "João da Silva" }} />
             <UsuarioInfo user={{ email: "joao@email.com" }} />
           </Card>
-
           <Card titulo="#07 - Repetição - Produtos" color="#ffcbaa">
             <TabelaProdutos />
           </Card>

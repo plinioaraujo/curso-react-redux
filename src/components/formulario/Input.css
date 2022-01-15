@@ -1,0 +1,10 @@
+.Input input {
+    font-size: 1.4rem;
+    height: 30px;
+    
+}
+
+.divflex{
+    display: flex;
+    flex-direction: column;
+}
