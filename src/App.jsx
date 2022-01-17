@@ -17,6 +17,7 @@ import DiretaPai from "./components/comunicacao/DiretaPai";
 import IndiretaPai from "./components/comunicacao/IndiretaPai";
 import Input from "./components/formulario/Input";
 import Contador from "./components/contador/Contador";
+import Mega from "./components/mega/Mega";
 
 const App = () => {
   return (
@@ -26,6 +27,9 @@ const App = () => {
 
         <div className="Cards">
 
+          <Card titulo="#13 - MegaSena" color="#B9006E">
+            <Mega par="#ffd700" impar="#c04f66"/>
+          </Card>
           <Card titulo="#12 - Contador" color="#ff4242">
            <Contador numeroInicial={10} passoInicial={5}/>
           </Card>

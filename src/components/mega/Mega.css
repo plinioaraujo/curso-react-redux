@@ -1,0 +1,41 @@
+.Mega{
+    margin-top: 16px;
+}
+.Mega label {
+    margin-right:10px ;
+}
+.Mega input {
+    font-size: 1.4rem;
+    width: 50px;
+    
+}
+
+button{
+    width: 200px;
+    height: 60px;
+    margin-top: 16px;
+    font-size: 1.4rem;
+    background-color: chartreuse;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(27, 53, 3);
+    color: cornsilk;
+}
+
+.resultado{
+    padding: 10px;
+    font-size: 2.0rem;
+    font-weight: 800;
+}
+
+.par{
+    color:#c04f66;
+}
+
+.impar{
+    color: #ffd700;
+}
